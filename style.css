@@ -1,0 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Strait);
+
+body {
+  font: 44px 'Strait', sans-serif;
+  text-align: center; 
+  padding: 100px; 
+  color: #eee; 
+  background-color: rgba( 25, 85, 125, 1); 
+}
