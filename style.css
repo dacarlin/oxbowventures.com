@@ -1,9 +1,65 @@
 @import url(https://fonts.googleapis.com/css?family=Strait);
+ 
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+} /* from calicolabs.com */
 
-body {
-  font: 44px 'Strait', sans-serif;
-  text-align: center; 
-  padding: 100px; 
+body, html {
+  height: 100%;
+  font: 24px 'Strait', sans-serif; 
+  padding: 0;
+  margin: 0;
   color: #eee; 
+  background-color: #eee; 
+}
+
+.head-container {
+  padding: 66px 100px 0 100px; 
+  height: 100%;
+  background-color: rgba( 25, 85, 125, 1); 
+  background-image: url('img/oxbow.jpg');
+}
+
+.head-container p {
+  position: absolute;
+}
+
+.team-container {
+  padding: 100px; 
+  background-color: #eee; 
+  color: #444;
+  font-size: 18px;
+}
+
+.team-container h2 {
+  text-transform: uppercase;
+  font-size: 18px;
+  padding-bottom: 40px;
+}
+
+.team-container table tr td h3 + p {
+  margin: 0;
+  padding: 0 0 20px 0;
+  border-bottom: 6px solid rgba( 25, 85, 125, 1);
+}
+
+.team-container table tr td {
+  vertical-align: top;
+}
+
+.team-container table tr td p.detail {
+  padding: 0 100px 0 40px; 
+  margin: 0;
+  line-height: 1.5em; 
+}
+
+.foot-container {
+  padding: 100px; 
   background-color: rgba( 25, 85, 125, 1); 
 }
